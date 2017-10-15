@@ -18,6 +18,5 @@ Use `git config --global user.email correct-email@example.com` and `git config -
 
 1. add & commits
 2. `git git remote add origin "remote_repo_url"`
-3. 
 
 [Github - Adding an existing project](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
