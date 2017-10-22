@@ -20,3 +20,11 @@ Use `git config --global user.email correct-email@example.com` and `git config -
 2. `git git remote add origin "remote_repo_url"`
 
 [Github - Adding an existing project](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)
+
+# Errors
+
+## "Cannot read property 'resourceUri' of undefined"
+
+Add the folder manually with `git add folderName/`
+
+[Github VSCode Thread](https://github.com/Microsoft/vscode/issues/35724)
