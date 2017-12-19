@@ -24,6 +24,7 @@ Use `git config --global user.email correct-email@example.com` and `git config -
 ## Rebaseing
 
 `git rebase`
+
 Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebase has a powerful history rewriting features. The primary reason for rebasing is to maintain a linear project history. For example, consider a situation where the master branch has progressed since you started working on a feature branch. 
 
 [git rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
