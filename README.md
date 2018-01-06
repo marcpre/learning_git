@@ -36,3 +36,9 @@ Rebasing is the process of moving or combining a sequence of commits to a new ba
 Add the folder manually with `git add folderName/`
 
 [Github VSCode Thread](https://github.com/Microsoft/vscode/issues/35724)
+
+## "The current branch master has no upstream branch"
+
+`git push -u origin master`
+
+[Stackoverflow](https://stackoverflow.com/questions/23401652/fatal-the-current-branch-master-has-no-upstream-branch)
