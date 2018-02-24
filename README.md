@@ -42,3 +42,10 @@ Add the folder manually with `git add folderName/`
 `git push -u origin master`
 
 [Stackoverflow](https://stackoverflow.com/questions/23401652/fatal-the-current-branch-master-has-no-upstream-branch)
+
+## "LF will be replaced by CRLF"
+
+`git config core.autocrlf true`
+
+[Stackoverflow](https://stackoverflow.com/questions/5834014/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important)
+
