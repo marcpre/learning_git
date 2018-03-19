@@ -49,3 +49,9 @@ Add the folder manually with `git add folderName/`
 
 [Stackoverflow](https://stackoverflow.com/questions/5834014/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important)
 
+## "Git refusing to merge unrelated histories"
+
+`git pull origin master --allow-unrelated-histories`
+
+[Stackoverflow](https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase)
+
