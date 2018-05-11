@@ -13,6 +13,9 @@ Use `git config --global user.email correct-email@example.com` and `git config -
 
 [Stackoverflow - Username is not linked](https://stackoverflow.com/questions/26004587/git-commits-are-not-getting-linked-with-my-github-account)
 
+## Execution Path of Git
+
+`git --exec-path`
 
 ## Adding remote repo
 
