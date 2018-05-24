@@ -30,6 +30,19 @@ Use `git config --global user.email correct-email@example.com` and `git config -
 
 Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebase has a powerful history rewriting features. The primary reason for rebasing is to maintain a linear project history. For example, consider a situation where the master branch has progressed since you started working on a feature branch. 
 
+[Resync git repo with new gitignore file](https://stackoverflow.com/questions/7075923/resync-git-repo-with-new-gitignore-file)
+
+## Resync `gitignore file`
+
+```
+# rm all files
+git rm -r --cached .
+# add all files as per new .gitignore
+git add .
+# now, commit for new .gitignore to apply
+git commit -m ".gitignore is now working"
+```
+
 [git rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
 
 # Errors
