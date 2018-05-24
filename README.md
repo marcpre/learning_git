@@ -43,7 +43,7 @@ git add .
 git commit -m ".gitignore is now working"
 ```
 
-[git rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
+[Stackoverflow - Resync gitignore file](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
 
 # Errors
 
