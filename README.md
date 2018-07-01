@@ -45,6 +45,17 @@ git commit -m ".gitignore is now working"
 
 [Stackoverflow - Resync gitignore file](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
 
+## Create Release
+
+1. On GitHub, navigate to the main page of the repository.
+
+2. Releases tab Under your repository name, click Releases.
+
+3. Releases draft buttonClick Draft a new release.
+4. Releases tagged versionType a version number for your release. Versions are based on Git tags. We recommend naming tags that fit within semantic versioning. 
+
+[Github - Create Release](https://help.github.com/articles/creating-releases/)
+
 # Errors
 
 ## "Cannot read property 'resourceUri' of undefined"
