@@ -56,6 +56,18 @@ git commit -m ".gitignore is now working"
 
 [Github - Create Release](https://help.github.com/articles/creating-releases/)
 
+## Replace false author
+
+```
+git filter-branch --env-filter 'if [ "$GIT_AUTHOR_EMAIL" = "incorrect@email" ]; then
+     GIT_AUTHOR_EMAIL=correct@email;
+     GIT_AUTHOR_NAME="Correct Name";
+     GIT_COMMITTER_EMAIL=$GIT_AUTHOR_EMAIL;
+     GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"; fi' -- --all
+```
+
+[Stackoverflow - Email Change](https://stackoverflow.com/questions/4981126/how-to-amend-several-commits-in-git-to-change-author)
+
 # Errors
 
 ## "Cannot read property 'resourceUri' of undefined"
