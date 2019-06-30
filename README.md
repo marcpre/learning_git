@@ -1,5 +1,10 @@
 # Learning git
 
+## Get repository name
+
+`git remote show origin`
+[Get repository name](https://stackoverflow.com/a/15715979/2847689)
+
 ## Add remote
     git remote add origin https://github.com/user/repo.git
 [Add a remote](https://help.github.com/articles/adding-a-remote/)
