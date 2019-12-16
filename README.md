@@ -73,6 +73,16 @@ git filter-branch --env-filter 'if [ "$GIT_AUTHOR_EMAIL" = "incorrect@email" ]; 
 
 [Stackoverflow - Email Change](https://stackoverflow.com/questions/4981126/how-to-amend-several-commits-in-git-to-change-author)
 
+## Commit History
+
+```
+git log
+```
+
+[Show commit history](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
+
+
+
 # Errors
 
 ## "Cannot read property 'resourceUri' of undefined"
