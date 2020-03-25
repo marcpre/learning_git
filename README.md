@@ -15,7 +15,6 @@ First, run `git config -l` to check your settings and make sure that you don't h
 
 Use `git config --global user.email correct-email@example.com` and `git config --global user.name marcpre` to change the username
 
-
 [Stackoverflow - Username is not linked](https://stackoverflow.com/questions/26004587/git-commits-are-not-getting-linked-with-my-github-account)
 
 ## Execution Path of Git
@@ -36,6 +35,14 @@ Use `git config --global user.email correct-email@example.com` and `git config -
 Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebase has a powerful history rewriting features. The primary reason for rebasing is to maintain a linear project history. For example, consider a situation where the master branch has progressed since you started working on a feature branch. 
 
 [Resync git repo with new gitignore file](https://stackoverflow.com/questions/7075923/resync-git-repo-with-new-gitignore-file)
+
+## Save Username/Password
+
+```
+git config --global credential.helper store
+git pull origin master
+```
+[Stackoverflow - Save username/pwd](https://stackoverflow.com/questions/35942754/how-to-save-username-and-password-in-git)
 
 ## Resync `gitignore file`
 
